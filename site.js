@@ -1,3 +1,1 @@
-document.querySelectorAll('[data-app-link]').forEach(a=>a.href=window.ZERO_ISSUES.stayLedgerApp);
-document.querySelectorAll('[data-email]').forEach(a=>{a.href='mailto:'+window.ZERO_ISSUES.contactEmail+'?subject='+encodeURIComponent(a.dataset.subject||'Zero Issues enquiry');if(a.hasAttribute('data-email-text'))a.textContent=window.ZERO_ISSUES.contactEmail;});
-const basis=document.getElementById('gstBasis');if(basis){function update(){document.getElementById('price').innerHTML=basis.value==='exclusive'?'NZ$9.56 <small>/ month excl. GST</small>':'NZ$10.99 <small>/ month incl. GST</small>';}basis.addEventListener('change',update);update();}
+
