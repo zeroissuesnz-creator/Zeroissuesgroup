@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://zeroissues.co.nz/sitemap.xml
